@@ -785,6 +785,9 @@ def _write_atomtypes(out_file, top, base_unyts, cfactorsDict):
             )
         )
 
+def _write_virtual_sites(out_file, top, base_unyts, cfactorsDict):
+	pass
+	#to finish this function
 
 def _write_pairtypes(out_file, top, base_unyts, cfactorsDict):
     """Write out pair interaction to LAMMPS file."""
